@@ -9,6 +9,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SobreComponent } from './components/sobre/sobre.component';
+import { ProjetosComponent } from './components/projetos/projetos.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
     SmallCardComponent,
     HomeComponent,
     SobreComponent,
+    ProjetosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

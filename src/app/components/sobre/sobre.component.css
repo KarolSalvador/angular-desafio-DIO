@@ -37,8 +37,14 @@
   font-size: 25px;
 }
 
+.sobre-mim p {
+  font-size: 20px;
+  width: 90%;
+}
+
 .sobre-mim h2 {
   color: #670d2f;
+  margin-bottom: 20px;
 }
 
 .sobre-mim-photo {
