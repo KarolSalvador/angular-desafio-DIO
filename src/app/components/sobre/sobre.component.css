@@ -1,0 +1,50 @@
+.container__sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  padding: 110px 8% 100px;
+  height: 100vh;
+}
+
+.sobre-apresentacao p {
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.sobre-apresentacao h1 {
+  color: #670d2f;
+  font-size: 70px;
+  line-height: 1.2;
+}
+
+.container__sobre-mim {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 20px;
+  gap: 20px;
+  padding: 110px 8% 100px;
+  height: 100vh;
+}
+
+.sobre-mim {
+  width: 50%;
+  margin: 0;
+  font-size: 25px;
+}
+
+.sobre-mim h2 {
+  color: #670d2f;
+}
+
+.sobre-mim-photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
