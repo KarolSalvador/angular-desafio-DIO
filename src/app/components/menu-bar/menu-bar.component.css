@@ -20,12 +20,12 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  gap: 40px;
+  gap: 20px;
 }
 
 .container__menu-bar ul li a {
   color: #722323;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
@@ -33,4 +33,10 @@ body {
 
 .container__menu-bar ul li a:hover {
   transform: scale(1.1);
+}
+
+.container__menu-bar ul li span {
+  color: #722323;
+  font-size: 1.3rem;
+  display: inline-block;
 }
