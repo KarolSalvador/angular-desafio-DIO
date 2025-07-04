@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projetos',
   templateUrl: './projetos.component.html',
-  styleUrls: ['./projetos.component.css']
+  styleUrls: ['./projetos.component.css'],
 })
 export class ProjetosComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
