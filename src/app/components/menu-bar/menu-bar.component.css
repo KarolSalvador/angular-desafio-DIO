@@ -12,18 +12,18 @@ body {
   font-weight: bold;
   padding: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.container__menu-bar ul {
+.navlist ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
 
-.container__menu-bar ul li a {
+.navlist ul li a {
   color: #722323;
   font-size: 1.3rem;
   display: inline-block;
@@ -31,12 +31,46 @@ body {
   text-decoration: none;
 }
 
-.container__menu-bar ul li a:hover {
+.navlist ul li a:hover {
   transform: scale(1.1);
 }
 
-.container__menu-bar ul li span {
+.navlist ul li span {
   color: #722323;
   font-size: 1.3rem;
   display: inline-block;
+}
+
+.network-list {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+figure {
+  height: 2rem;
+  width: 2rem;
+}
+
+#github-img {
+  background-image: url("../../../assets/github_icon.svg");
+  background-size: 2rem;
+  transition: all 0.45s ease-in-out;
+}
+
+#github-img:hover {
+  background-image: url("../../../assets/github_social_icon-hover.svg");
+  background-size: 2rem;
+}
+
+#linkedin-img {
+  background-image: url("../../../assets/linkedin-logo_icon.svg");
+  background-size: 2rem;
+  transition: all 0.45s ease-in-out;
+}
+
+#linkedin-img:hover {
+  background-image: url("../../../assets/linkedin-logo_icon-hover.svg");
+  background-size: 2rem;
+  transition: all 0.45s ease-in-out;
 }
