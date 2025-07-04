@@ -16,14 +16,51 @@
   font-size: 25px;
 }
 
-.sobre-mim p {
-  font-size: 20px;
-  width: 90%;
-}
-
 .sobre-mim h2 {
   color: #670d2f;
   margin-bottom: 20px;
+}
+
+.sobre-mim p {
+  font-size: 18px;
+  width: 90%;
+}
+
+.cv-button {
+  margin: 2rem auto 0;
+  background: #670d2f;
+  transition: all 0.45s ease;
+  display: flex;
+  border: 0;
+  border-radius: 0.8rem;
+}
+
+.cv-btn {
+  color: #ffeccc;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border: 1px solid #670d2f;
+  padding: 0.5rem 2rem;
+  border-radius: 0.8rem;
+  transition: all 0.45s ease;
+}
+
+.cv-button:hover {
+  background: #ffeccc;
+  transition: all 0.45s ease;
+  display: flex;
+  border: 0;
+  border-radius: 0.8rem;
+}
+
+.cv-btn:hover {
+  color: #670d2f;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border: 1px solid #670d2f;
+  padding: 0.5rem 2rem;
+  border-radius: 0.8rem;
+  transition: all 0.45s ease;
 }
 
 .sobre-mim-photo {
