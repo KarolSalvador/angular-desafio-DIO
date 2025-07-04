@@ -1,0 +1,36 @@
+body {
+  padding-top: 60px;
+}
+
+.container__menu-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(114, 35, 35, 0.1);
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__menu-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.container__menu-bar ul li a {
+  color: #722323;
+  font-size: 1.7rem;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.container__menu-bar ul li a:hover {
+  transform: scale(1.1);
+}
